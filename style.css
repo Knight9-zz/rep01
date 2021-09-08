@@ -1,0 +1,105 @@
+body
+{
+background: url(https://img-pre.ivsky.com/img/bizhi/pre/201610/12/your_name-005.jpg) no-repeat center 0px;
+background-position: center 0;
+background-size: cover;
+}
+h1
+{
+text-align:center;
+color:white
+}
+h2
+{
+margin-left:60%;
+color:white
+}
+pre
+{
+text-indent:25px;
+font-size: 25px;
+line-height:25px;
+color:black
+}
+
+img#your_name
+{
+    height: 250px;
+    width: 200px;
+    box-sizing: border-box;
+    top:500px;
+}
+
+video{
+    position:relative;
+    margin:0 auto;
+}
+    
+
+/*注意： 在CSS定义中，a:hover 必须被置于 a:link 和 a:visited 之后，才是有效的。
+
+注意： 在 CSS 定义中，a:active 必须被置于 a:hover 之后，才是有效的。*/
+a:link
+{
+    color: yellow;
+}
+a:visited
+{
+    color:black;
+}
+a:hover
+{
+    color:cornflowerblue;
+}
+a:active
+{
+    color:cornflowerblue;
+}
+
+table
+{
+    border:black solid 1px;
+    border-collapse: collapse;
+}
+thead th
+{
+    background-color: gray;
+    color: white;
+}
+tbody
+{
+    background-color: lightgray;
+    color:white;
+}
+th,td
+{
+    border:black solid 1px;
+    padding: 20px;
+}
+
+form:read-only
+{
+    background-color: gray;
+}
+
+:target
+{
+    border:2px solid orange;
+}
+
+::selection/*匹配用户选中的文本*/
+{
+    background-color:rosybrown;
+    color:teal;
+}
+
+button
+{
+    background-color: wheat;
+}
+
+div#div_ul{
+    position: relative;
+    border: cadetblue solid 3px;
+    width: 400px;
+}
